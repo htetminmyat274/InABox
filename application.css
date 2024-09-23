@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: carli, sans-serif;
+}
+
+#logo {
+    transition: transform 0.2s ease-in-out;
+}
+
+#navbar {
+    background-color: #fff;
+    margin-top: 0;
+}
+
+@keyframes firstphoto {
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+
+    20% {
+        transform: translate(-10px, -10px) rotate(-5deg);
+    }
+
+    40% {
+        transform: translate(10px, 10px) rotate(5deg);
+    }
+
+    60% {
+        transform: translate(-10px, -10px) rotate(-5deg);
+    }
+
+    80% {
+        transform: translate(10px, 10px) rotate(5deg);
+    }
+
+    100% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+}
+
+#logo:hover {
+    animation: firstphoto 1s ease-in-out;
+}
+
+#nav:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+/* line */
+#line {
+    background-color: #000;
+    height: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#line p {
+    color: #fff;
+}
+
+#review {
+    background-color: #FFA2B6;
+}
+
+/* footer */
+#footertitle {
+    color: #FFFF00;
+}
+
+#footersignature {
+    color: #55ffe1;
+    font-family: 'Best Signature Font', sans-serif;
+}
+
+#footersignature:hover {
+    animation: firstphoto 1s ease-in-out;
+}
